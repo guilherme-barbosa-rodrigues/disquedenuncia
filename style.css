@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-cabecalho {
+    background-color: #32CD32 ;
+    padding: 7px;
+}
+.texto-cabecalho {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgb(78, 78, 78);
+    font-family: 'Gabarito', sans-serif;
+    letter-spacing: 0.3px;
+}
+.link-cabecalho {
+    text-decoration: none;
+    color: white;
+}
