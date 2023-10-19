@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Gabarito', sans-serif;
 }
 .container-cabecalho {
     background-color: #32CD32 ;
@@ -12,10 +14,37 @@
     color: white;
     text-align: center;
     text-shadow: 0px 1px 2px rgb(78, 78, 78);
-    font-family: 'Gabarito', sans-serif;
     letter-spacing: 0.3px;
 }
 .link-cabecalho {
     text-decoration: none;
     color: white;
+}
+.principal-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #1e2535 ;
+    color: white;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+.imagem-cabecalho {
+    max-width: 80px;
+    max-height: 70px;
+    padding-right: 10px;
+}
+.icone-cabecalho {
+    font-size: 1.7em;
+    padding-left: 10px;
+}
+.textoprincipal-cabecalho {
+    padding-left: 60px;
+}
+.principal {
+    height: 83.1vh;
+}
+.rodape{
+    height: 50px;
+    background-color:  #1e2535 ;
 }
