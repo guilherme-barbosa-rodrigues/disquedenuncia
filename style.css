@@ -87,6 +87,7 @@
     max-width: 300px;
     margin-left: 20px;
     border-radius: 7px;
+    border: none;
 }
 .endereco {
     max-width: 400px;
@@ -103,7 +104,7 @@
     height: 20px;
 }
 .email {
-    max-width: 150px;
+    max-width: 230px;
 }
 #idenuncia{
     margin-left: 3%;
@@ -127,4 +128,26 @@
 .rodape{
     height: 30px;
     background-color: #1e2535;
+}
+
+@media screen and (max-width: 450px){
+    .principal-formulario {
+        height: 60vh;
+    }
+    .label {
+        margin-left: 8px;
+    }
+    #idenuncia{
+        margin-left: 1%;
+        max-width: 320px;
+    }
+    .input{
+        margin-left: 5px;
+    }
+    .botao{
+        margin-top: 5px;
+    }
+    .endereco {
+        max-width: 310px;
+    }
 }
