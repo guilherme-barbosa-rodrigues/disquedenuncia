@@ -43,6 +43,19 @@
 }
 .principal {
     height: 83.1vh;
+    background-color: bisque;
+}
+.principal-informacoes {
+    text-align: center;
+}
+.informacoes-titulo {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+}
+.informacoes-frase {
+    padding-top: 5px;
+    color: #1e2535;
 }
 .rodape{
     height: 50px;
