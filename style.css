@@ -43,7 +43,7 @@
     text-shadow: 0px 1px 2px rgb(78, 78, 78);
 }
 .principal {
-    height: 83.1vh;
+    height: 85.3vh;
     background-color: bisque;
     display: inline-flex;
     flex-direction: column;
@@ -113,13 +113,18 @@
 }
 .botao {
     width: 150px;
-    height: 25px;
+    height: 30px;
     margin-top: 10px;
     margin-left: 50px;
     border-radius: 7px;
     cursor: pointer;
+
+    background-color: rgb(223, 46, 46);
+    color: white;
+    font-family: 'Gabarito', sans-serif;
+    letter-spacing: 2px;
 }
 .rodape{
-    height: 50px;
+    height: 30px;
     background-color: #1e2535;
 }
